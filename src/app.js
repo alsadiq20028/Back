@@ -21,7 +21,7 @@ app.use(bodyparser.json());
 // Define Routes
 app.use("/api/auth", require("./routes/authRoutes"));
 // app.use("/api/students", require("./routes/studentRoutes"));
-app.use("/api/performance", require("./routes/PerformanceRoutes"));
+// app.use("/api/performance", require("./routes/PerformanceRoutes"));
 app.use("/api/teacher", require("./routes/teacherRoutes"));
 app.use("/api/material", require("./routes/materialRoutes"));
 
